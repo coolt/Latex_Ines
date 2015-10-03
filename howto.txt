@@ -1,0 +1,52 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  _____       ______   ____									%
+% |_   _|     |  ____|/ ____|  Institute of Embedded Systems	%
+%   | |  _ __ | |__  | (___    Wireless Group					%
+%   | | | '_ \|  __|  \___ \   Zuercher Hochschule Winterthur	%
+%  _| |_| | | | |____ ____) |  (University of Applied Sciences)	%
+% |_____|_| |_|______|_____/   8401 Winterthur, Switzerland		%
+%																%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Project     : LaTeX Vorlage für InES
+% Date        : 23.04.2015
+% Author      : Benjamin Häring
+	      : Lukas Hegetschweiler
+% Feedback bitte an Email: hegt@zhaw.ch
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Windows Installation:
+Download and extract "proTeXt" from http://www.latex-project.org/ftp.html 1.6 GB
+Mit proTeXt protext.exe (download the self-extracting protext.exe file) MiKTeX und TeXStudio installieren.
+Das erste Mal documentation.tex aus der Vorlage mit TeXworks ausführen (Rechtslick -> Öffnen mit..) dann grüner Play-Knopf (Setzen)
+
+Ab jetzt documentation.tex mit dem Editor TeXStudio öffnen
+Optionen -> TeXStudio einrichten -> Schnelles Erzeugen: PdfLaTeX + MakeIndex + BibTex auswählen
+Icon "Q" Schnelles Erzeugen (F1) anklicken. (Zur Referenzerzeugung immer zweimal ausführen)
+
+
+Linux Installation:
+Im Ubuntu Software-Center nach TeXstudio suchen und inkl. Zusätzliche Erweiterungen installieren
+Anleitung und Hilfestellung nach http://www.latex-project.org/ftp.html
+Ctrl-Alt-T texstudio
+doc.tex mit dem Editor TeXStudio öffnen
+Optionen -> TeXStudio einrichten -> Schnelles Erzeugen: PdfLaTeX + MakeIndex + BibTex auswählen
+Icon "Q" Schnelles Erzeugen (F1) anklicken. (Zur Referenzerzeugung immer zweimal ausführen)
+
+
+Mac Installation:
+Wer ergänzt diese Anleitung und sendet Sie an hegt@zhaw.ch?
+
+
+External-Cls:
+Das aktuelle cls file ist als external vom Repo:
+https://parma.zhaw.ch/svn/zhaw_latex_style/tags/22_04_15/zhawines.cls
+included. Style änderungen sollten mit hegt abgesprochen werden. Sobald ein release gemacht wird kann das neue cls file als external hinzugefügt werden.
+
+
+Known-Issues:
+Exernal ist als Ordner in das Example Projekt eingefügt. Fehler beim einfügen als File. Weiss jemand warum?
+
+
+
